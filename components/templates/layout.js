@@ -1,7 +1,12 @@
-export default function Layout({ className, children }){
+import Meta from "./meta";
+
+export default function Layout({ className, meta, children }){
 	return (
-		<section className={className}>
-			{children}
-		</section>
+		<>
+			<Meta {...meta} />
+			<section className={className}>
+				{children}
+			</section>
+		</>
 	)
 }
