@@ -1,6 +1,7 @@
 import Base from "../components/layout/base"
-import Toolbar from "../components/modules/toolbar"
-import Header from "../components/modules/header"
+import Toolbar from "../components/modules/globals/toolbar"
+import Header from "../components/modules/globals/header"
+import Footer from "../components/modules/globals/footer"
 
 export default function Home() {
 
@@ -13,6 +14,9 @@ export default function Home() {
       {/** Module: Header */}
       <Header />
 
+
+      {/** Module: Footer */}
+      <Footer />
 
     </Base>
     
