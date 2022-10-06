@@ -5,3 +5,10 @@
 - Install dependencies `npm i`
 - Run `npm run dev`
 - Open `http://localhost:3000`
+
+### Stack
+- React
+- Next.js
+- Redux Toolkit
+- Tailwindcss
+- SASS
