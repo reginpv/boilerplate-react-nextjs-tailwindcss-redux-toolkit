@@ -1,7 +1,7 @@
 import { Provider } from 'react-redux'
 import store from '../store'
 
-import 'tailwindcss/tailwind.css'
+import '../src/scss/app.scss'
 
 function MyApp({ Component, pageProps }) {
   return (
